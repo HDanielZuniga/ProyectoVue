@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h2>Dante Prueba</h2>
+        <h1>Prueba Router</h1>
     </div>
 </template>
