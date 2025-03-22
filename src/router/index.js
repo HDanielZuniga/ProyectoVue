@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
+import PruebaView from '../views/PruebaView.vue'
 
 // Definimos las rutas de la aplicación en un array de objetos
 const routes = [
@@ -21,6 +22,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/prueba',
+    name: 'Prueba',
+    component: PruebaView
   }
 ]
 
