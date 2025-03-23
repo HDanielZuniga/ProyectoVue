@@ -1,8 +1,23 @@
 <template>
   <div class="home-view">
     <h1>Personajes</h1>
-    <div class="cards-container">
-      <CardComponent v-for="char in characters" :key="char.id" :character="char" />
+    <div 
+      class="cards-container"
+      :style="{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(4, 200px)',
+        gap: '2rem',
+        marginTop: '1rem',
+        width: 'fit-content',
+        marginLeft: 'auto',
+        marginRight: 'auto'
+      }"
+    >
+      <CardComponent 
+        v-for="char in characters" 
+        :key="char.id" 
+        :character="char" 
+      />
     </div>
   </div>
 </template>
@@ -33,12 +48,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-</style>
