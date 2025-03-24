@@ -1,5 +1,5 @@
 <template>
-  <div class="home-view">
+  <div class="about-view">
     <h1>Personajes</h1>
     <div 
       class="cards-container"
@@ -28,7 +28,7 @@ import axios from 'axios'
 import CardComponent from '../components/CardComponent.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'AboutView', // 👈 Optimización del nombre del componente corregido aquí
   components: { CardComponent },
   setup() {
     const characters = ref([])
@@ -48,3 +48,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.about-view {
+  padding: 2rem;
+}
+
+.cards-container {
+  justify-content: center;
+}
+</style>
