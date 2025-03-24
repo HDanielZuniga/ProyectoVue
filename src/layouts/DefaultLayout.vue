@@ -1,14 +1,13 @@
 <template>
   <div>
     <header class="default-header">
-      <!-- Aquí sigue tu nav sin cambios -->
       <nav class="default-nav">
         <router-link to="/">Home</router-link>
         <router-link to="/about">Rick</router-link>
       </nav>
     </header>
     <main>
-      <router-view />
+      <router-view/>
     </main>
   </div>
 </template>
