@@ -1,30 +1,44 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import DefaultLayout from '../layouts/DefaultLayout.vue'
-import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import { createRouter, createWebHistory } from 'vue-router'
+import PerfilView from '@/views/PefilView.vue'
+import TemaView from '@/views/TemaView.vue'
+import RickView from '@/views/RickView.vue'
+import VistaRouter from '@/views/VistaRouter.vue'
+import LoginView from '@/views/LoginView.vue'
 
 const routes = [
   {
     path: '/',
-    component: DefaultLayout,
-    children: [
-      {
-        path: '',
-        name: 'home',
-        component: HomeView
-      },
-      {
-        path: 'about',
-        name: 'about',
-        // Esta vista ahora muestra la carta de Rick
-        component: AboutView
-      }
-    ]
+    name: 'rick',
+    component: RickView
+  },
+  {
+    path: '/perfil',
+    name: 'perfil',
+    component: PerfilView
+  },
+  {
+    path: '/tema',
+    name: 'tema',
+    component: TemaView
+  },
+  {
+    path: '/:catchAll(.*)',
+    redirect: '/'
+  },
+  {
+    path: '/vista',
+    name: 'Vista',
+    component: VistaRouter
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: LoginView
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 

@@ -4,8 +4,7 @@
     <div class="card-content">
       <h2 class="card-title">{{ character.name }}</h2>
       <p class="card-status">{{ character.status }} - {{ character.species }}</p>
-      <p class="card-origin">{{ character.origin.name }} </p>
-      
+      <p class="card-origin">{{ character.origin.name }}</p>
       <div class="card-episodes">
         <p>Episodios:</p>
         <ul>
@@ -29,7 +28,7 @@ export default {
   },
   data() {
     return {
-      episodes: [] // aquí almacenaremos los nombres de los episodios
+      episodes: [] // Almacenará los nombres de los episodios
     }
   },
   mounted() {
@@ -59,6 +58,7 @@ export default {
   width: 200px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0 auto;
 }
 .card-img {
   width: 100%;
@@ -74,6 +74,10 @@ export default {
 .card-status {
   font-size: 0.9rem;
   color: #666;
+  margin: 0.5rem 0;
+}
+.card-origin {
+  font-size: 0.9rem;
   margin: 0.5rem 0;
 }
 .card-episodes p {

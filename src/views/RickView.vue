@@ -49,12 +49,3 @@ export default {
 }
 </script>
 
-<style scoped>
-.about-view {
-  padding: 2rem;
-}
-
-.cards-container {
-  justify-content: center;
-}
-</style>
