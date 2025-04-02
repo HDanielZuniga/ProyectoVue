@@ -28,7 +28,7 @@ import axios from 'axios'
 import CardComponent from '../components/CardComponent.vue'
 
 export default {
-  name: 'RickView', // Se cambia el nombre para que coincida con el archivo
+  name: 'RickView', 
   components: { CardComponent },
   setup() {
     const characters = ref([])

@@ -1,43 +1,22 @@
 <template>
-  <div>
-    <h2>Vista Usuario</h2>
-    <div class="card profile-data">
-      <h3>{{ perfilData.nombre }}</h3>
-      <img class="profile-img" :src="perfilData.foto" alt="Foto de perfil" />
-      <p>{{ perfilData.cargo }}</p>
-    </div>
+  <div class="perfil-view">
+    <h2>Vista de Perfil</h2>
+    <!-- Se utiliza LocalCardComponent para mostrar la tarjeta de perfil -->
+    <LocalCardComponent temaId="perfil" />
   </div>
 </template>
 
 <script>
-import data from '@/assets/datos.json';
+import LocalCardComponent from '@/components/LocalCardComponent.vue'
 
 export default {
-  name: "VistaUser",
-  data() {
-    return {
-      perfilData: {}
-    }
-  },
-  created() {
-    this.perfilData = {
-      nombre: data.nombre,
-      cargo: data.cargo,
-      foto: data.foto  
-    }
-  }
+  name: 'PefilView',
+  components: { LocalCardComponent }
 }
 </script>
 
 <style scoped>
-.profile-data {
-  padding: 0;
-}
-
-.profile-img {
-  display: block;
-  margin: 20px auto;
-  max-width: 150px;
-  border-radius: 50%;
+.perfil-view {
+  text-align: center;
 }
 </style>
