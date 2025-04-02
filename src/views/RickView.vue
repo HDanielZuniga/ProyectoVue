@@ -1,5 +1,5 @@
 <template>
-  <div class="about-view">
+  <div class="rick-view">
     <h1>Personajes</h1>
     <div 
       class="cards-container"
@@ -28,7 +28,7 @@ import axios from 'axios'
 import CardComponent from '../components/CardComponent.vue'
 
 export default {
-  name: 'AboutView', // 👈 Optimización del nombre del componente corregido aquí
+  name: 'RickView', // Se cambia el nombre para que coincida con el archivo
   components: { CardComponent },
   setup() {
     const characters = ref([])
@@ -49,3 +49,6 @@ export default {
 }
 </script>
 
+<style scoped>
+/* Aquí puedes incluir estilos específicos para la vista de Rick */
+</style>

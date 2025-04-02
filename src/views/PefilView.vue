@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Pefil View</h2>
+    <h2>Vista Usuario</h2>
     <div class="card profile-data">
       <h3>{{ perfilData.nombre }}</h3>
       <img class="profile-img" :src="perfilData.foto" alt="Foto de perfil" />
@@ -10,17 +10,16 @@
 </template>
 
 <script>
-import data from '@/assets/datos.json'
+import data from '@/assets/datos.json';
 
 export default {
-  name: "PefilView",
+  name: "VistaUser",
   data() {
     return {
       perfilData: {}
     }
   },
   created() {
-    // Como data.foto tiene una ruta absoluta, se usa directamente
     this.perfilData = {
       nombre: data.nombre,
       cargo: data.cargo,
@@ -32,9 +31,8 @@ export default {
 
 <style scoped>
 .profile-data {
-padding: 0%
-
-;}
+  padding: 0;
+}
 
 .profile-img {
   display: block;
