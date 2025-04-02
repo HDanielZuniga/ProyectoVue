@@ -5,11 +5,7 @@
       <nav>
         <router-link to="/">Rick</router-link> |
         <router-link to="/perfil">Perfil</router-link> |
-        <router-link to="/tema">Tema</router-link> |
-        <router-link to="/vista">User</router-link> |
-        <router-link to="/login">Login</router-link> |
-        <router-link to="/users">Usuarios</router-link> |
-        <router-link to="/prototipe">ProtoTrash</router-link>
+        <router-link to="/tema">Tema</router-link> 
       
       </nav>
     </header>
