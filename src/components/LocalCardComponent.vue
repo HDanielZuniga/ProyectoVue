@@ -31,7 +31,7 @@ export default {
         ? {
             titulo: data.nombre,
             descripcion_completa: data.cargo,
-            imagen: data.foto, // Asignamos directamente la imagen desde el JSON del perfil
+            imagen: data.foto, 
             casos_de_uso: "",
             expertos_destacados: []
           }

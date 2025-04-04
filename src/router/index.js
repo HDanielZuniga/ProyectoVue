@@ -3,6 +3,7 @@ import MainLayout from "@/layouts/MainLayout.vue";
 import PefilView from "@/views/PefilView.vue"; // Conserva el nombre original
 import RickView from "@/views/RickView.vue";   // Conserva el nombre original
 import TemaView from "@/views/TemaView.vue";   // Conserva el nombre original
+import MarioView from "@/views/MarioView.vue";
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
         path: "tema",
         name: "tema",
         component: TemaView,
+      },
+      {
+        path: "mario",
+        name: "mario",
+        component: MarioView,
       },
       {
         path: "/:catchAll(.*)",

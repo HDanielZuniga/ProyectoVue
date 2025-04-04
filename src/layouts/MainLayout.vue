@@ -5,7 +5,10 @@
         <nav>
           <router-link to="/">Rick</router-link> |
           <router-link to="/perfil">Perfil</router-link> |
-          <router-link to="/tema">Tema</router-link>
+          <router-link to="/tema">Tema</router-link> |
+          <router-link to="/mario">Mario</router-link> |
+
+      
         </nav>
       </header>
       <main>
