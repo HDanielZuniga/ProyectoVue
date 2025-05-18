@@ -7,8 +7,8 @@
       </button>
       <div class="collapse navbar-collapse d-none d-lg-block">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><router-link class="nav-link" to="/">Inicio</router-link></li>
-          <li class="nav-item"><router-link class="nav-link" to="/tema">Productos</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/">Productos</router-link></li>
+          <li class="nav-item"><router-link class="nav-link" to="/inicio">Inicio</router-link></li>
           <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
         </ul>
       </div>

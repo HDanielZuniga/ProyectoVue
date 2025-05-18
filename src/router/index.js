@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MainLayout from "@/layouts/MainLayout.vue";
-import TemaView from "@/views/TemaView.vue";   
-import InicioView from "@/views/InicioView.vue";
+import TemaView from "@/views/TemaView.vue";     // Ahora es la vista principal
+import InicioView from "@/views/InicioView.vue"; // Ahora es secundaria
 
 const routes = [
   {
@@ -10,13 +10,13 @@ const routes = [
     children: [
       {
         path: "",
-        name: "inicio",  
-        component: InicioView,
+        name: "productos",       // Este es el nombre de ruta para la vista principal
+        component: TemaView,
       },
       {
-        path: "tema",
-        name: "tema",
-        component: TemaView,
+        path: "inicio",
+        name: "inicio",
+        component: InicioView,
       },
       {
         path: "/:catchAll(.*)",
