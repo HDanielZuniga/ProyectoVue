@@ -1,0 +1,19 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fff7f9;
+  }
+  
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #c76d7e !important;
+  }
+  
+  .btn-primary {
+    background-color: #c76d7e;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a64e65;
+  }
+  

@@ -1,9 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MainLayout from "@/layouts/MainLayout.vue";
-import PefilView from "@/views/PefilView.vue"; // Conserva el nombre original
-import RickView from "@/views/RickView.vue";   // Conserva el nombre original
-import TemaView from "@/views/TemaView.vue";   // Conserva el nombre original
-import MarioView from "@/views/MarioView.vue";
+import TemaView from "@/views/TemaView.vue";   
+import InicioView from "@/views/InicioView.vue";
 
 const routes = [
   {
@@ -12,23 +10,13 @@ const routes = [
     children: [
       {
         path: "",
-        name: "rick",  // O puedes usar "RickView" si lo prefieres en el 'name'
-        component: RickView,
-      },
-      {
-        path: "perfil",
-        name: "perfil",
-        component: PefilView,
+        name: "inicio",  
+        component: InicioView,
       },
       {
         path: "tema",
         name: "tema",
         component: TemaView,
-      },
-      {
-        path: "mario",
-        name: "mario",
-        component: MarioView,
       },
       {
         path: "/:catchAll(.*)",

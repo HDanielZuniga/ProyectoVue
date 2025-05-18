@@ -1,238 +1,31 @@
 {
   "tema-libre": [
     {
-      "id": "01",
-      "titulo": "Inteligencia Artificial",
-      "descripcion_completa": "La Inteligencia Artificial (IA) es una rama de la informática que se enfoca en crear sistemas capaces de realizar tareas que normalmente requieren de la inteligencia humana, como el reconocimiento de voz, visión por computador, toma de decisiones y procesamiento del lenguaje natural. Desde algoritmos básicos hasta complejos sistemas de deep learning, la IA está transformando múltiples industrias.",
-      "expertos_destacados": [
-        "Yann LeCun",
-        "Geoffrey Hinton",
-        "Demis Hassabis",
-        "Fei-Fei Li"
-      ],
-      "casos_de_uso": "Diagnóstico médico asistido, vehículos autónomos, asistentes virtuales, sistemas de recomendación y análisis predictivo en diversas industrias.",
-      "imagen": "iot_6090969.png"
+      "id": "pastel01",
+      "titulo": "Pastel de Chocolate",
+      "descripcion_completa": "Delicioso pastel de chocolate con cobertura de ganache y relleno de trufa. Ideal para celebraciones especiales.",
+      "expertos_destacados": ["Chef Mariana Gómez", "Chef Jorge Martínez"],
+      "casos_de_uso": "Cumpleaños, aniversarios, celebraciones familiares.",
+      "imagen": "pastel_chocolate.png"
     },
     {
-      "id": "02",
-      "titulo": "Computación Cuántica",
-      "descripcion_completa": "La Computación Cuántica utiliza los principios de la mecánica cuántica para procesar información mediante qubits, permitiendo resolver problemas complejos de forma exponencialmente más rápida en ciertas aplicaciones, aprovechando fenómenos como la superposición y el entrelazamiento.",
-      "expertos_destacados": [
-        "John Preskill",
-        "Scott Aaronson",
-        "David Deutsch",
-        "Michelle Simmons"
-      ],
-      "casos_de_uso": "Criptografía, optimización de procesos, simulación de sistemas moleculares y resolución de problemas complejos en IA."
+      "id": "pastel02",
+      "titulo": "Cheesecake de Frutos Rojos",
+      "descripcion_completa": "Base crocante de galleta con un relleno cremoso de queso y cubierta de frutos rojos frescos.",
+      "expertos_destacados": ["Chef Ana Ruiz"],
+      "casos_de_uso": "Eventos románticos, meriendas, reuniones sociales.",
+      "imagen": "cheesecake_frutosrojos.png"
     },
     {
-      "id": "03",
-      "titulo": "Internet de las Cosas (IoT)",
-      "descripcion_completa": "El Internet de las Cosas (IoT) conecta dispositivos y objetos cotidianos a Internet para recopilar y compartir datos, permitiendo su gestión remota y la integración en sistemas inteligentes que optimizan procesos y mejoran la calidad de vida.",
-      "expertos_destacados": [
-        "Kevin Ashton",
-        "Bruce Sinclair",
-        "Simon J. Edwards"
-      ],
-      "casos_de_uso": "Domótica, ciudades inteligentes, monitoreo industrial, salud remota y optimización logística.",
-      "imagen": "iot_6090969.png"
-    },
-    {
-      "id": "04",
-      "titulo": "Blockchain",
-      "descripcion_completa": "Blockchain es una tecnología de registro distribuido que permite crear bases de datos inmutables y transparentes sin intermediarios, popularizada con Bitcoin y utilizada para contratos inteligentes y aplicaciones descentralizadas.",
-      "expertos_destacados": [
-        "Satoshi Nakamoto",
-        "Vitalik Buterin",
-        "Andreas Antonopoulos"
-      ],
-      "casos_de_uso": "Criptomonedas, contratos inteligentes, trazabilidad en cadenas de suministro y votación electrónica."
-    },
-    {
-      "id": "05",
-      "titulo": "Realidad Virtual",
-      "descripcion_completa": "La Realidad Virtual (VR) genera entornos digitales tridimensionales que permiten la inmersión total del usuario mediante dispositivos como cascos o gafas VR, siendo utilizada en entretenimiento, educación y simulaciones de entrenamiento.",
-      "expertos_destacados": [
-        "Jaron Lanier",
-        "Palmer Luckey",
-        "Mark Bolas"
-      ],
-      "casos_de_uso": "Videojuegos inmersivos, simuladores de entrenamiento, turismo virtual y experiencias educativas interactivas."
-    },
-    {
-      "id": "06",
-      "titulo": "Big Data",
-      "descripcion_completa": "Big Data se refiere al manejo y análisis de volúmenes masivos de datos que superan las capacidades de procesamiento de métodos tradicionales, permitiendo descubrir patrones y tendencias para transformar la toma de decisiones.",
-      "expertos_destacados": [
-        "Doug Laney",
-        "Viktor Mayer-Schönberger",
-        "Hilary Mason"
-      ],
-      "casos_de_uso": "Análisis predictivo, marketing personalizado, detección de fraudes y optimización logística."
-    },
-    {
-      "id": "07",
-      "titulo": "Ciberseguridad",
-      "descripcion_completa": "La Ciberseguridad engloba estrategias, tecnologías y prácticas para proteger sistemas, redes y datos contra ataques y accesos no autorizados, siendo esencial en un entorno digital altamente interconectado.",
-      "expertos_destacados": [
-        "Bruce Schneier",
-        "Eugene Kaspersky",
-        "Kevin Mitnick"
-      ],
-      "casos_de_uso": "Protección de infraestructuras críticas, seguridad en transacciones financieras, salvaguarda de datos y respuesta a incidentes cibernéticos."
-    },
-    {
-      "id": "08",
-      "titulo": "Robótica",
-      "descripcion_completa": "La Robótica se dedica al diseño, construcción y aplicación de robots que integran mecánica, electrónica y software para realizar tareas de forma autónoma o colaborativa, transformando procesos en la industria y servicios.",
-      "expertos_destacados": [
-        "Rodney Brooks",
-        "Cynthia Breazeal",
-        "Hans Moravec"
-      ],
-      "casos_de_uso": "Automatización de líneas de producción, asistencia en hospitales, exploración espacial y robots de servicio."
-    },
-    {
-      "id": "09",
-      "titulo": "Energías Renovables",
-      "descripcion_completa": "Las Energías Renovables se generan a partir de recursos naturales inagotables como el sol, el viento, el agua y la biomasa, ofreciendo una alternativa limpia y sostenible frente a los combustibles fósiles.",
-      "expertos_destacados": [
-        "Elon Musk",
-        "Dr. Mark Z. Jacobson",
-        "Amory Lovins"
-      ],
-      "casos_de_uso": "Instalación de paneles solares, parques eólicos, plantas hidroeléctricas y sistemas de energía geotérmica."
-    },
-    {
-      "id": "10",
-      "titulo": "Biotecnología",
-      "descripcion_completa": "La Biotecnología aplica principios biológicos y técnicas de ingeniería genética para desarrollar productos y procesos innovadores en sectores como la salud, la agricultura y la industria, permitiendo modificar organismos para producir compuestos de alto valor.",
-      "expertos_destacados": [
-        "Jennifer Doudna",
-        "Emmanuelle Charpentier",
-        "George Church"
-      ],
-      "casos_de_uso": "Terapias génicas, cultivos transgénicos, producción de biocombustibles, diagnósticos avanzados y desarrollo de vacunas."
-    },
-    {
-      "id": "11",
-      "titulo": "Nanotecnología",
-      "descripcion_completa": "La Nanotecnología manipula la materia a escala nanométrica (1-100 nm), permitiendo crear materiales y dispositivos con propiedades únicas que impactan en campos como la medicina, la electrónica y la industria de nuevos materiales.",
-      "expertos_destacados": [
-        "Richard Feynman",
-        "Sumio Iijima",
-        "C. N. R. Rao"
-      ],
-      "casos_de_uso": "Aplicaciones médicas, desarrollo de sensores y transistores, nuevos materiales en la industria aeroespacial y dispositivos energéticos avanzados."
-    },
-    {
-      "id": "12",
-      "titulo": "Impresión 3D",
-      "descripcion_completa": "La Impresión 3D es una tecnología de fabricación aditiva que crea objetos físicos a partir de modelos digitales mediante la deposición sucesiva de capas, revolucionando el prototipado y la producción personalizada.",
-      "expertos_destacados": [
-        "Chuck Hull",
-        "Adrian Bowyer",
-        "Josef Prusa"
-      ],
-      "casos_de_uso": "Prototipado rápido, fabricación de piezas personalizadas, implantes médicos y construcción mediante impresoras 3D especializadas."
-    },
-    {
-      "id": "13",
-      "titulo": "Automatización Industrial",
-      "descripcion_completa": "La Automatización Industrial utiliza sistemas de control, robots y PLC para operar procesos y maquinaria con mínima intervención humana, optimizando la eficiencia y reduciendo errores en la manufactura.",
-      "expertos_destacados": [
-        "Joseph Engelberger",
-        "Hans-Jürgen Krupp",
-        "Elon Musk"
-      ],
-      "casos_de_uso": "Líneas de producción automatizadas, sistemas de control en plantas químicas y logísticas, y ensamblaje en la industria automotriz."
-    },
-    {
-      "id": "14",
-      "titulo": "Smart Cities",
-      "descripcion_completa": "Las Smart Cities integran tecnologías de la información y comunicación para optimizar la gestión de recursos y servicios urbanos, utilizando sensores e IoT para mejorar la calidad de vida y la sostenibilidad en áreas urbanas.",
-      "expertos_destacados": [
-        "Anthony Townsend",
-        "Carlo Ratti",
-        "Boyd Cohen",
-        "Pilar Conesa"
-      ],
-      "casos_de_uso": "Gestión de tráfico, redes eléctricas inteligentes, iluminación pública eficiente, gestión de residuos y participación ciudadana."
-    },
-    {
-      "id": "15",
-      "titulo": "Realidad Aumentada",
-      "descripcion_completa": "La Realidad Aumentada (RA) superpone elementos virtuales sobre la visión del mundo real en tiempo real, enriqueciendo la percepción del entorno mediante dispositivos como smartphones o gafas AR.",
-      "expertos_destacados": [
-        "Tom Caudell",
-        "Ronald Azuma",
-        "Meron Gribetz",
-        "Masayuki Inui"
-      ],
-      "casos_de_uso": "Apps móviles de filtros y juegos, retail para visualización de productos, educación interactiva y mantenimiento industrial asistido."
-    },
-    {
-      "id": "16",
-      "titulo": "Machine Learning",
-      "descripcion_completa": "El Machine Learning desarrolla algoritmos que aprenden y mejoran a partir de datos sin programación explícita, utilizando técnicas supervisadas, no supervisadas y por refuerzo para descubrir patrones y tomar decisiones.",
-      "expertos_destacados": [
-        "Arthur Samuel",
-        "Geoffrey Hinton",
-        "Yoshua Bengio",
-        "Andrew Ng"
-      ],
-      "casos_de_uso": "Visión por computador, procesamiento del lenguaje natural, motores de recomendación, detección de fraude y mantenimiento predictivo."
-    },
-    {
-      "id": "17",
-      "titulo": "Redes 5G",
-      "descripcion_completa": "Las Redes 5G representan la quinta generación de comunicación móvil, ofreciendo velocidades ultrarrápidas, latencia mínima y alta densidad de conexiones, lo que habilita nuevas aplicaciones en IoT, vehículos autónomos y experiencias inmersivas.",
-      "expertos_destacados": [
-        "Erik Dahlman",
-        "Ted Rappaport",
-        "Asha Keddy",
-        "Mischa Dohler"
-      ],
-      "casos_de_uso": "Streaming en alta definición, comunicaciones críticas en industria, vehículos conectados y telemedicina avanzada."
-    },
-    {
-      "id": "18",
-      "titulo": "Cloud Computing",
-      "descripcion_completa": "El Cloud Computing ofrece servicios informáticos a través de Internet, permitiendo el acceso a recursos escalables y flexibles sin necesidad de infraestructura propia, transformando la gestión y el consumo de recursos tecnológicos.",
-      "expertos_destacados": [
-        "John McCarthy",
-        "Marc Benioff",
-        "Werner Vogels",
-        "Diane Greene"
-      ],
-      "casos_de_uso": "Alojamiento web, análisis de big data, machine learning, almacenamiento masivo y desarrollo colaborativo a través de SaaS, PaaS e IaaS."
-    },
-    {
-      "id": "19",
-      "titulo": "Diseño de Interfaces",
-      "descripcion_completa": "El Diseño de Interfaces se centra en crear interacciones eficientes entre usuarios y sistemas, definiendo la estructura visual y la experiencia de usuario para facilitar una comunicación clara y efectiva.",
-      "expertos_destacados": [
-        "Don Norman",
-        "Alan Cooper",
-        "Susan Kare",
-        "Jakob Nielsen"
-      ],
-      "casos_de_uso": "Diseño de apps móviles, portales web, dashboards empresariales, interfaces de videojuegos y sistemas operativos."
-    },
-    {
-      "id": "20",
-      "titulo": "Desarrollo Sostenible",
-      "descripcion_completa": "El Desarrollo Sostenible busca satisfacer las necesidades actuales sin comprometer las de futuras generaciones, integrando crecimiento económico, inclusión social y protección ambiental para lograr un equilibrio a largo plazo.",
-      "expertos_destacados": [
-        "Gro Harlem Brundtland",
-        "Jeffrey Sachs",
-        "Kate Raworth",
-        "Amartya Sen"
-      ],
-      "casos_de_uso": "Transición energética a renovables, agricultura sostenible, edificación ecológica, movilidad urbana sostenible y economía circular."
+      "id": "pastel03",
+      "titulo": "Tarta de Manzana",
+      "descripcion_completa": "Tarta tradicional horneada con manzanas caramelizadas y un toque de canela.",
+      "expertos_destacados": ["Chef Pedro Torres"],
+      "casos_de_uso": "Postre casero, comidas familiares.",
+      "imagen": "tarta_manzana.png"
     }
   ],
-  "nombre": "Harold Daniel Zuñiga",
-  "cargo": "Systems Engineer",
-  "foto": "/blank-profile-picture-973460_960_720.webp"
+  "nombre": "Dulces Momentos",
+  "cargo": "Pastelería Gourmet",
+  "foto": "/pasteleria_logo.png"
 }
